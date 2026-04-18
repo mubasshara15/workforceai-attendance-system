@@ -1,0 +1,5 @@
+{
+  "name": "Face Recognition System",
+  "description": "A real-time face registration and recognition system using your device camera.",
+  "requestFramePermissions": ["camera"]
+}
