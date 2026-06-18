@@ -1,20 +1,55 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# WorkForceAI
 
-# Run and deploy your AI Studio app
+## AI-Powered Attendance & Workforce Management System
 
-This contains everything you need to run your app locally.
+### Overview
 
-View your app in AI Studio: https://ai.studio/apps/7d31ac0e-b2e6-442f-8c3f-b9224a11bc4e
+WorkForceAI is a full-stack attendance and workforce management platform that uses facial recognition technology to automate employee identification and attendance tracking.
 
-## Run Locally
+The system provides real-time face recognition, employee management, attendance monitoring, recognition history, and workforce analytics through an interactive dashboard.
 
-**Prerequisites:**  Node.js
+---
 
+### Features
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- Real-time facial recognition
+- Employee registration and management
+- Automated attendance tracking
+- Check-in and check-out management
+- Recognition history logs
+- Unknown face detection
+- Attendance analytics dashboard
+- Workforce monitoring
+
+---
+
+### Tech Stack
+
+#### Frontend
+- React
+- TypeScript
+- Tailwind CSS
+
+#### Backend
+- Node.js
+- Express.js
+
+#### Database
+- SQLite
+
+#### AI & Computer Vision
+- FaceAPI
+- Computer Vision
+
+---
+
+### Status
+
+🚧 Currently under active development
+
+Future enhancements:
+- Role-based authentication
+- Leave management
+- PDF & Excel reports
+- Anti-spoofing detection
+- Advanced analytics
