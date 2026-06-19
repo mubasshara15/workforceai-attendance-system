@@ -1,5 +1,5 @@
 {
-  "name": "Face Recognition System",
-  "description": "A real-time face registration and recognition system using your device camera.",
+  "name": "WorkForceAI System",
+  "description": "AI-powered workforce attendance and employee management system using facial recognition.",
   "requestFramePermissions": ["camera"]
 }
