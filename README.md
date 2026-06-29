@@ -1,55 +1,170 @@
-# WorkForceAI
+# 🚀 WorkForceAI
 
 ## AI-Powered Attendance & Workforce Management System
 
-### Overview
+### 📖 Overview
 
-WorkForceAI is a full-stack attendance and workforce management platform that uses facial recognition technology to automate employee identification and attendance tracking.
+**WorkForceAI** is a full-stack attendance and workforce management system that uses AI-powered facial recognition to automate employee identification and attendance tracking.
 
-The system provides real-time face recognition, employee management, attendance monitoring, recognition history, and workforce analytics through an interactive dashboard.
-
----
-
-### Features
-
-- Real-time facial recognition
-- Employee registration and management
-- Automated attendance tracking
-- Check-in and check-out management
-- Recognition history logs
-- Unknown face detection
-- Attendance analytics dashboard
-- Workforce monitoring
+The application supports both **live camera recognition** and **image upload recognition**, enabling organizations to register employees, recognize faces in real time, and automatically record attendance through an intuitive dashboard.
 
 ---
 
-### Tech Stack
+## ✨ Features
 
-#### Frontend
-- React
-- TypeScript
-- Tailwind CSS
+### 👤 Employee Management
 
-#### Backend
-- Node.js
-- Express.js
+* Register employees using facial recognition
+* Store employee profiles securely
+* Delete employee records
+* Employee information panel
 
-#### Database
-- SQLite
+### 🤖 Face Recognition
 
-#### AI & Computer Vision
-- FaceAPI
-- Computer Vision
+* Live camera face recognition
+* Image upload face recognition
+* Face descriptor generation
+* Unknown face detection
+* Real-time confidence score display
+
+### 📅 Attendance Management
+
+* Automatic employee check-in
+* Automatic employee check-out
+* Attendance history
+* Recognition history
+* Duplicate attendance prevention
+* Attendance status tracking
+
+### 📊 Dashboard
+
+* Employee statistics
+* Present employee count
+* Late employee count
+* Absent employee count
+* Real-time attendance summary
+
+### 🎨 User Experience
+
+* Modern responsive interface
+* Dark theme UI
+* Real-time notifications
+* Live camera preview
+* Image upload support
 
 ---
 
-### Status
+## 🛠️ Technology Stack
 
-🚧 Currently under active development
+### Frontend
 
-Future enhancements:
-- Role-based authentication
-- Leave management
-- PDF & Excel reports
-- Anti-spoofing detection
-- Advanced analytics
+* React 19
+* TypeScript
+* Vite
+* Tailwind CSS
+* Lucide React
+
+### Backend
+
+* Node.js
+* Express.js
+* REST API
+
+### Database
+
+* MySQL
+* mysql2
+
+### AI & Computer Vision
+
+* FaceAPI.js
+* Face Recognition Models
+* HTML5 Camera API
+
+---
+
+## 🚀 Getting Started
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Start Backend
+
+```bash
+npm run server
+```
+
+### Start Frontend
+
+```bash
+npm run dev
+```
+
+Frontend:
+
+```
+http://localhost:3001
+```
+
+Backend:
+
+```
+http://localhost:5000
+```
+
+---
+
+## 📂 Project Structure
+
+```
+WorkForceAI
+│
+├── server
+│   ├── db
+│   ├── routes
+│   ├── lib
+│   ├── config.js
+│   └── server.js
+│
+├── src
+│   ├── components
+│   ├── data
+│   ├── lib
+│   ├── types
+│   ├── App.tsx
+│   └── main.tsx
+│
+├── .env.example
+├── package.json
+└── README.md
+```
+
+---
+
+## 🚧 Project Status
+
+The project is currently under active development.
+
+### Planned Features
+
+* JWT Authentication
+* Role-Based Access Control
+* Employee Editing
+* Search & Filtering
+* Attendance Reports
+* PDF & Excel Export
+* Dashboard Analytics
+* Leave Management
+* Anti-Spoofing Detection
+* Cloud Deployment
+
+---
+
+## 👩‍💻 Author
+
+**Mubasshara Muzammil**
+
+GitHub: https://github.com/mubasshara15
