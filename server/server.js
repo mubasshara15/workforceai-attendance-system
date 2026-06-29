@@ -1,6 +1,7 @@
 import express from "express";
 import cors from "cors";
 
+import config from "./config.js";
 import employeeRoutes from "./routes/employees.js";
 import attendanceRoutes from "./routes/attendance.js";
 import dashboardRoutes from "./routes/dashboard.js";
@@ -14,6 +15,6 @@ app.use("/api/employees", employeeRoutes);
 app.use("/api/attendance", attendanceRoutes);
 app.use("/api/dashboard", dashboardRoutes);
 
-app.listen(5000, () => {
-  console.log("WorkForceAI API running on port 5000");
+app.listen(config.port, () => {
+  console.log(`WorkForceAI API running on port ${config.port}`);
 });

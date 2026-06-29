@@ -1,10 +1,12 @@
 import mysql from "mysql2";
+import config from "../config.js";
 
 const db = mysql.createPool({
-  host: "localhost",
-  user: "root",
-  password: "rura123",
-  database: "workforce_ai",
+  host: config.db.host,
+  port: config.db.port,
+  user: config.db.user,
+  password: config.db.password,
+  database: config.db.database,
 });
 
 export default db.promise();
